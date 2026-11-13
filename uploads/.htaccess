@@ -1,0 +1,5 @@
+# Chan chay script trong thu muc anh da upload (Apache/XAMPP).
+<FilesMatch "\.(php|php3|php4|php5|phtml|phar|cgi|pl)$">
+    Require all denied
+</FilesMatch>
+Options -Indexes
